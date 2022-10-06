@@ -56,3 +56,53 @@ header button{
 header button:hover {
 	opacity:0.3;
 }
+main p{
+   font-size:27px ;
+   font-family:"Montserrat" ;
+   width:1029px ;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:30px ;
+   font-weight:100 ;
+}
+main p a{
+   color: #D7B377;
+}
+main .opis{
+	margin-top:300px ;
+}
+main img{
+	position: absolute;
+}
+main .icon{
+	top:1000px ;
+	left:0 ;
+}
+main .icon2{
+	top:1100px ;
+	left:800px ;
+	
+}
+main .icon3{
+	top:1800px ;
+	right:0 ;
+	transform: scale(-1, 1)
+}
+main button{
+	margin-top:100px ;
+	margin-left:960px ;
+	background:red ;
+	border-color:red ;
+	border-radius:30px ;
+	width:160px ;
+	height:65px ;
+	font-size:25px ;
+	transition-duration: 0.3s;
+}
+main button:hover{
+	opacity:0.3;
+}
+main button a{
+	text-decoration:none ;
+	color:white ;
+}
