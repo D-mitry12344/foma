@@ -1,0 +1,58 @@
+
+@font-face{
+   font-family:'Lighthaus' ;
+   src:url("Lighthaus.otf") ;
+}
+@font-face{
+   font-family:'Montserrat' ;
+   src:url("Montserrat-Regular.ttf");
+}
+header{
+	background:rgb(255,0,0,0.5) url("Rectangle 28.png") no-repeat center ;
+	width:1920px ;
+	background-size:cover ;
+	height:1000px ;
+    margin-top:-40px ;
+	margin-left:75px ;
+}
+header img{
+	position:absolute ;
+}
+.icon{
+	top:20px ;
+	left:380px ;
+}
+header h2{
+	padding-top:250px ;
+	margin-left:295px ;
+	font-size:50px ;
+	width:600px ;
+	height:180px ;
+	line-height:70px ;
+	font-family:"Lighthaus" ;
+	font-weight:100 ;
+}
+header p{
+	font-family:"Montserrat" ;
+    font-size:25px ;
+    margin-left:295px ;
+}
+header button{
+	position:absolute ;
+	top:550px ;
+	margin-left:295px ;
+	background:red ;
+	border-color:red ;
+	border-radius:30px ;
+	width:160px ;
+	height:65px ;
+	font-size:25px ;
+	transition-duration: 0.3s;
+}
+.ger a {
+	text-decoration:none ;
+	color:white ;
+}
+header button:hover {
+	opacity:0.3;
+}
