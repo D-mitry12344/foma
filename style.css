@@ -11,12 +11,13 @@
 
 .header {
 	background: rgb(255,0,0,0.5) url("images/Rectangle 28.png") no-repeat center;
-	width: 1920px;
 	background-size: cover;
 	height: 1000px;
    margin-top: -42px;
-	margin-left: -9px;
-	margin-right: 0;
+	width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
 
 .header img {
@@ -85,22 +86,29 @@
 	margin-left: 405px;
 }
 
+.main{
+	position: relative;
+	width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .main img {
 	position: absolute;
 }
 
 .main .icon {
-	top: 1000px;
-	left: 0;
+	top: -300px;
+	left: -50px;
 }
 
 .main .icon2 {
-	top: 1130px;
-	margin-left: 725px;
+	top: -190px;
+	margin-left: 705px;
 }
 
 .main .icon3 {
-	top: 1795px;
+	top: 450px;
 	margin-left: 415px;
 	transform: scale(-1, 1)
 }
@@ -128,9 +136,13 @@
 
 .block-three{
 	width: 1920px;
-	background: url("images/block2.png") no-repeat -50px 20px;
-	height: 2000px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("images/block2.png") no-repeat -10px 60px;
+	height: 1500px;
 	position: relative;
+	
+
 }
 
 .block-three img:first-child{
@@ -306,7 +318,7 @@ input:checked +label::before {
 }
 
 .btn:hover {
-	opacity: 0.7;
+	opacity: 0.3;
 }
 
 .politic{
@@ -354,4 +366,120 @@ input:checked +label::before {
 .image img:nth-child(6){	
 	left: 570px;
 	top: 25px;
+}
+
+.main-two{
+	width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	position: relative;
+}
+
+.main-two img:first-child {
+	position: absolute;
+	left: 5px;
+	top: -90px;
+}
+
+.main-two img:nth-child(2) {
+	position: absolute;
+	left: 0px;
+	top: -285px;
+}
+
+.main-two img:nth-child(3) {
+	position: absolute;
+	top: 108px;
+	right: 8px;
+}
+
+.opis-forth{
+	text-align: center;
+	top: 0;
+}
+
+.opis-forth h2 {
+	font-family: "Lighthaus";
+	font-size: 47px;
+	margin-bottom: 20px;
+}
+
+.opis-forth p {
+	font-family: "Montserrat";
+	font-size: 27px;
+	line-height: 20px;
+}
+
+.opis-forth a {
+	text-decoration: none;
+	color: #D7B377;
+}
+
+
+.footer{
+	color: white;
+	height: 480px;
+	position: relative;
+	width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer a{
+	color: white;
+}
+.footer img{
+	position: absolute;
+	left: 290px;
+	top: 37px;
+}
+.info-one{
+	font-family: "Montserrat";
+	font-size: 23px;
+	line-height: 37px;
+	margin-left: 810px;
+	padding-top: 7px;
+}
+.info-one ul{
+	list-style: none;
+}
+.info-one p{
+	display: block;
+	padding-top: 250px;
+	margin-left: 55px;
+	font-size: 20px;
+}
+
+.info-two{
+	margin-left: 1205px;
+	margin-top: -440px;
+	font-family: "Montserrat";
+	font-size: 21px;
+
+}
+.info-two ul{
+	list-style: none;
+}
+.info-two p{
+	line-height: 33px;
+}
+
+
+footer{
+	background: #2D2D2D;
+	margin-left: -10px;
+	margin-right: 10px;
+	margin-top: 100px;
+	width: 100%;
+}
+
+html{
+	width: 100%;
+}
+
+a {
+	opacity: 0.7;
+}
+a:hover{
+	opacity: 1;
 }
