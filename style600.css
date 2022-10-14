@@ -1,20 +1,10 @@
-
-@font-face {
-   font-family: 'Lighthaus';
-   src: url("font/Lighthaus.otf");
-}
-
-@font-face {
-   font-family: 'Montserrat';
-   src: url("font/Montserrat-Regular.ttf");
-}
-@media (min-width: 1920px){
+@media (min-width: 600px) and(max-width: 1000px){
 .header {
 	background: rgb(255,0,0,0.5) url("images/Rectangle 28.png") no-repeat center;
 	background-size: cover;
 	height: 1000px;
    margin-top: -42px;
-	width: 1920px;
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -88,7 +78,7 @@
 
 .main{
 	position: relative;
-	width: 1920px;
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -135,7 +125,7 @@
 }
 
 .block-three{
-	width: 1920px;
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	background: url("images/block2.png") no-repeat -10px 60px;
@@ -369,7 +359,7 @@ input:checked +label::before {
 }
 
 .main-two{
-	width: 1920px;
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 300px;
@@ -421,7 +411,7 @@ input:checked +label::before {
 	color: white;
 	height: 480px;
 	position: relative;
-	width: 1920px;
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -484,4 +474,3 @@ a:hover{
 	opacity: 1;
 }
 }
-
