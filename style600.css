@@ -8,7 +8,7 @@
    src: url("font/Montserrat-Regular.ttf");
 }
 
-@media (min-width: 100px) and (max-width: 1366px) {
+@media (min-width: 0px) and (max-width: 1366px) {
 .header {
 	background: rgb(255,0,0,0.5) url("images/Rectangle27.png") no-repeat center;
 	background-size: cover;
