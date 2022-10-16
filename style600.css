@@ -1,10 +1,20 @@
-@media (min-width: 600px) and(max-width: 1000px){
+@font-face {
+   font-family: 'Lighthaus';
+   src: url("font/Lighthaus.otf");
+}
+
+@font-face {
+   font-family: 'Montserrat';
+   src: url("font/Montserrat-Regular.ttf");
+}
+
+@media (min-width: 360px) and (max-width: 1366px) {
 .header {
-	background: rgb(255,0,0,0.5) url("images/Rectangle 28.png") no-repeat center;
+	background: rgb(255,0,0,0.5) url("images/Rectangle27.png") no-repeat center;
 	background-size: cover;
-	height: 1000px;
+	height: 630px;
    margin-top: -42px;
-	width: 600px;
+	width: 360px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -16,37 +26,40 @@
 
 .icon {
 	top: 30px;
-	left: 303px;
+	left: 20px;
+	content: url("images/logo_white.png");
+	width: 134px;
+	height: 52px;
 }
 
 .header h2 {
-	padding-top: 272px;
-	margin-left: 295px;
-	font-size: 50px;
-	width: 600px;
-	height: 180px;
-	line-height: 73px;
+	padding-top: 360px;
+	margin-left: 20px;
+	font-size: 30px;
+	width: 330px;
+	height: 128px;
+	line-height: 43px;
 	font-family: "Lighthaus";
 	font-weight: 100;
 }
 
 .header p {
 	font-family: "Montserrat";
-   font-size: 25px;
-   margin-top: 50px;
-   margin-left: 302px;
+   font-size: 0px;
+   margin-top: 0px;
+   margin-left: 0px;
 }
 
 .header button {
 	position: absolute;
-	top: 565px;
-	margin-left: 302px;
+	top: 540px;
+	margin-left: 110px;
 	background: red;
 	border-color: red;
 	border-radius: 30px;
-	width: 160px;
-	height: 65px;
-	font-size: 25px;
+	width: 138px;
+	height: 50px;
+	font-size: 20px;
 	transition-duration: 0.3s;
 }
 
@@ -58,12 +71,18 @@
 .header button:hover {
 	opacity: 0.3;
 }
+.first-icon{
+	display: none;
+}
+.two-icon{
+	display: none;
+}
 
 .main p {
-   font-size: 28px;
+   font-size: 21px;
    font-family: "Montserrat";
-   width: 1029px;
-   margin-top: 30px;
+   width: 360px;
+   margin-top: 20px;
    font-weight: 100;
 }
 
@@ -72,13 +91,13 @@
 }
 
 .main .opis {
-	margin-top: 325px;
-	margin-left: 405px;
+	margin-top: 200px;
+	margin-left: 20px;
 }
 
 .main{
 	position: relative;
-	width: 600px;
+	width: 360px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -88,30 +107,35 @@
 }
 
 .main .icon {
-	top: -300px;
+	top: -30px;
 	left: -50px;
+	display: none;
 }
 
 .main .icon2 {
-	top: -190px;
-	margin-left: 705px;
+	top: -140px;
+	margin-left: 30px;
+	width: 325px;
+	height: 116px;
+	
 }
 
 .main .icon3 {
+	display: none;
 	top: 450px;
 	margin-left: 415px;
 	transform: scale(-1, 1)
 }
 
 .main button {
-	margin-top: 50px;
-	margin-left: 870px;
+	margin-top: 20px;
+	margin-left: 87px;
 	background: red;
 	border-color: red;
 	border-radius: 30px;
-	width: 165px;
-	height: 70px;
-	font-size: 25px;
+	width: 138px;
+	height: 50px;
+	font-size: 20px;
 	transition-duration: 0.3s;
 }
 
@@ -125,11 +149,11 @@
 }
 
 .block-three{
-	width: 600px;
+	width: 360px;
 	margin-left: auto;
 	margin-right: auto;
-	background: url("images/block2.png") no-repeat -10px 60px;
-	height: 1500px;
+	background: url("images/block2.png") no-repeat -100px -250px;
+	height: 1000px;
 	position: relative;
 	
 
@@ -138,30 +162,32 @@
 .block-three img:first-child{
 	position: absolute;
 	top: 0px;
+	display: none;
 }
 
 .block-three img:nth-child(2){
 	position: absolute;
 	top: 440px;
 	right: 0;
+	display: none;
 }
 
 .forma{
-	margin-top: 190px;
-	width: 700px;
+	margin-top: 80px;
+	width: 310px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .forma h2{
-	font-size: 47px;
+	font-size: 27px;
 	font-weight: 10px;
 	font-family: "Lighthaus";
 }
 
 .detail {
 	margin-top: -27px;
-	width: 700px;
+	width: 310px;
 	height: 750px;
 	margin-left: auto;
 	margin-right: auto;
@@ -171,12 +197,12 @@
 
 .btn-item{
 	display: flex;
-	width: 356px;
-	font-size: 23px;
+	width: 300px;
+	font-size: 20px;
 	font-family: "Montserrat";
 	margin-top: 110px;
-	margin-left: 40px;
-	height: 65px;
+	margin-left:20px;
+	height: 55px;
 	border-radius: 50px;
 	border: 1px solid #A6A6A6;
 	cursor: pointer;
@@ -185,8 +211,8 @@
 .value-one{
 	width: 143px;
 	text-align: center;
-	height: 45px;
-	padding-top: 20px;
+	height: 40px;
+	padding-top: 15px;
 }
 
 .value{
@@ -199,62 +225,69 @@
 .value-two{
 	width: 173px;
 	text-align: center;
-	height: 45px;
-	padding-top: 20px;
+	height: 40px;
+	padding-top: 15px;
 	margin-left: 40px;
 }
 
 .opis{
-	font-size: 23px;
+	font-size: 20px;
 	font-family: "Montserrat";
 	line-height: 30px;
-	width: 550px;
+	width: 310px;
 	margin-top: -10px;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 .number div{
 	border: 1px solid #A6A6A6;
 	border-radius: 30px;
-	width: 123px;
-	height: 45px;
-	justify-content: center;
-	align-items: center;
+	width: 122px;
+	height: 35px;
 	text-align: center;
 	font-family: "Montserrat", sans-serif;
 	font-size: 22px;
-	padding-top: 20px;
+	padding-top: 15px;
 	margin: 10px;
 	cursor: pointer;
 }
 
 div.price-two , div.price-three , div.price-forth {
-	width: 135px;
+	width: 122px;
 }
 
 .number ul{
 	list-style: none;
-	display: flex;
+	width: 300px;
+	height: 50px;
 	margin-top: 35px;
-	margin-left: -10px;
+	margin-left: -30px;
+}
+.number li{
+	display: inline-block;
 }
 
+
 .detail input{
-	margin-left: 40px;
-	margin-top: -20px;
-	margin-bottom: 40px;
+	display: block;
+	margin-left: 20px;
+	margin-top: 100px;
+	margin-bottom: 20px;
 	border-radius: 50px;
-	width: 560px;
-	height: 60px;
+	width: 250px;
+	height: 40px;
 	justify-content: center;
-	padding-left: 40px;
+	padding-left: 20px;
 	font-family: "Montserrat";
-	font-size: 23px;
+	font-size: 20px;
+}
+#mail{
+	margin-top: 20px;
 }
 
 .check{
-	margin-top: -20px;
-	margin-left: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .check input{
@@ -263,7 +296,7 @@ div.price-two , div.price-three , div.price-forth {
 }
 .check label{
 	display: block;
-	font-size: 25px;
+	font-size: 17px;
 	font-family: "Montserrat";
 }
 
@@ -278,8 +311,8 @@ div.price-two , div.price-three , div.price-forth {
    vertical-align: middle;
    border: 2px solid #D7B377;
 	border-radius: 50%;
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 }
 
 input:checked +label::before {
@@ -290,12 +323,12 @@ input:checked +label::before {
 
 .btn{
 	background: red;
-	font-size: 30px;
+	font-size: 20px;
 	font-family: "Montserrat";
-	width: 600px;
-	margin-left: 40px;
+	width: 270px;
+	margin-left: 20px;
 	color: white;
-	height: 65px;
+	height: 45px;
 	margin-top: 35px;
 	border-color: red;
 	vertical-align: center;
@@ -304,7 +337,7 @@ input:checked +label::before {
 }
 
 .btn p{
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .btn:hover {
@@ -312,10 +345,10 @@ input:checked +label::before {
 }
 
 .politic{
-	margin-left: 200px;
-	margin-top: 30px;
+	margin-left: 40px;
+	margin-top: 20px;
 	margin-right: auto;
-	font-size: 22px;
+	font-size: 17px;
 	font-family: "Montserrat";
 	
 }
@@ -332,37 +365,47 @@ input:checked +label::before {
 .image img{
 	position: absolute;
 }
-.image img:nth-child(1){	
-	left: 40px;
-	top: 30px;
+.image img:nth-child(1){
+position: absolute;	
+	left: 30px;
+	top: 45px;
+	width: 10%;
+	display: block;
+
 }
 
 .image img:nth-child(2){	
-	left: 160px;
-	top: 25px;
+	left: 110px;
+	top: 45px;
+	width: 10%;
+	display: block;
 }
 .image img:nth-child(3){	
-	left: 275px;
-	top: 20px;
+	left: 70px;
+	top: 40px;
+	width: 10%;
 }
 .image img:nth-child(4){	
-	left: 370px;
-	top: 20px;
+	left: 150px;
+	top: 40px;
+	width: 10%;
 }
 .image img:nth-child(5){	
-	left: 470px;
-	top: 25px;
+	left: 200px;
+	top: 40px;
+	width: 10%;
 }
 .image img:nth-child(6){	
-	left: 570px;
-	top: 25px;
+	left: 250px;
+	top: 40px;
+	width: 10%;
 }
 
 .main-two{
-	width: 600px;
+	width: 360px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 300px;
+	height: 410px;
 	position: relative;
 }
 
@@ -370,34 +413,39 @@ input:checked +label::before {
 	position: absolute;
 	left: 5px;
 	top: -90px;
+	display: none;
 }
 
 .main-two img:nth-child(2) {
 	position: absolute;
 	left: 0px;
 	top: -285px;
+	display: none;
 }
 
 .main-two img:nth-child(3) {
 	position: absolute;
-	top: 108px;
+	top: 300px;
 	right: 8px;
+	width: 80%;
 }
 
 .opis-forth{
-	text-align: center;
-	top: 0;
+	text-align: left;
+	margin-top: 100px;
 }
 
 .opis-forth h2 {
 	font-family: "Lighthaus";
-	font-size: 47px;
+	font-size: 30px;
 	margin-bottom: 20px;
+	text-align: left;
+	width: 100px;
 }
 
 .opis-forth p {
 	font-family: "Montserrat";
-	font-size: 27px;
+	font-size: 23px;
 	line-height: 20px;
 }
 
@@ -409,9 +457,9 @@ input:checked +label::before {
 
 .footer{
 	color: white;
-	height: 480px;
+	height: 750px;
 	position: relative;
-	width: 600px;
+	width: 360px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -420,38 +468,39 @@ input:checked +label::before {
 }
 .footer img{
 	position: absolute;
-	left: 290px;
+	left: 20px;
 	top: 37px;
+	width: 40%;
 }
 .info-one{
 	font-family: "Montserrat";
-	font-size: 23px;
+	font-size: 20px;
 	line-height: 37px;
-	margin-left: 810px;
-	padding-top: 7px;
+	margin-left: -20px;
+	padding-top: 87px;
 }
 .info-one ul{
 	list-style: none;
 }
 .info-one p{
 	display: block;
-	padding-top: 250px;
+	padding-top: 300px;
 	margin-left: 55px;
 	font-size: 20px;
 }
 
 .info-two{
-	margin-left: 1205px;
-	margin-top: -440px;
+	margin-left: -20px;
+	margin-top: -340px;
 	font-family: "Montserrat";
-	font-size: 21px;
+	font-size: 20px;
 
 }
 .info-two ul{
 	list-style: none;
 }
 .info-two p{
-	line-height: 33px;
+	line-height: 20px;
 }
 
 

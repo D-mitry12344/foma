@@ -43,10 +43,10 @@
 }
 
 .header h2 {
-	padding-top: 170px;
-	margin-left: 202px;
+	padding-top: 17px;
+	margin-left: 20px;
 	font-size: 40px;
-	width: 440px;
+	width: 310px;
 	height: 180px;
 	line-height: 60px;
 	font-family: "Lighthaus";
@@ -55,15 +55,15 @@
 
 .header p {
 	font-family: "Montserrat",sans-serif;
-   font-size: 20px;
+   font-size: 10px;
    margin-top: 70px;
-   margin-left: 202px;
+   margin-left: 20px;
 }
 
 .header button {
 	position: absolute;
-	top: 470px;
-	margin-left: 202px;
+	top: 47px;
+	margin-left: 20px;
 	background: red;
 	border-color: red;
 	border-radius: 30px;
