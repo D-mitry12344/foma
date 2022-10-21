@@ -32,9 +32,10 @@
 .header h2 {
 	padding-top: 272px;
 	margin-left: 295px;
-	font-size: 50px;
+	font-size: 49px;
 	width: 600px;
 	height: 180px;
+	letter-spacing: 0px;
 	line-height: 73px;
 	font-family: "Lighthaus";
 	font-weight: 100;
@@ -43,6 +44,7 @@
 .header p {
 	font-family: "Montserrat";
    font-size: 25px;
+   letter-spacing: 1px;
    margin-top: 50px;
    margin-left: 302px;
 }
@@ -56,7 +58,8 @@
 	border-radius: 30px;
 	width: 160px;
 	height: 65px;
-	font-size: 25px;
+	font-size: 24px;
+	letter-spacing: 1px;
 	transition-duration: 0.3s;
 }
 
@@ -70,11 +73,12 @@
 }
 
 .main p {
-   font-size: 28px;
+   font-size: 27px;
    font-family: "Montserrat";
    width: 1029px;
    margin-top: 30px;
    font-weight: 100;
+   line-height: 33px;
 }
 
 .main p a {
@@ -82,8 +86,8 @@
 }
 
 .main .opis {
-	margin-top: 325px;
-	margin-left: 405px;
+	margin-top: 326px;
+	margin-left: 410px;
 }
 
 .main{
@@ -98,29 +102,29 @@
 }
 
 .main .icon {
-	top: -300px;
-	left: -50px;
+	top: -324px;
+	left: 0px;
 }
 
 .main .icon2 {
-	top: -190px;
-	margin-left: 705px;
+	top: -193px;
+	margin-left: 737px;
 }
 
 .main .icon3 {
-	top: 450px;
-	margin-left: 415px;
+	top: 470px;
+	margin-left: 420px;
 	transform: scale(-1, 1)
 }
 
 .main button {
-	margin-top: 50px;
-	margin-left: 870px;
+	margin-top: 22px;
+	margin-left: 880px;
 	background: red;
 	border-color: red;
 	border-radius: 30px;
-	width: 165px;
-	height: 70px;
+	width: 160px;
+	height: 68px;
 	font-size: 25px;
 	transition-duration: 0.3s;
 }
@@ -138,8 +142,9 @@
 	width: 1920px;
 	margin-left: auto;
 	margin-right: auto;
-	background: url("images/block2.png") no-repeat -10px 60px;
+	background: url("images/block2.png") no-repeat 0px 60px;
 	height: 1500px;
+	margin-top: -5px;
 	position: relative;
 	
 
@@ -152,41 +157,44 @@
 
 .block-three img:nth-child(2){
 	position: absolute;
-	top: 440px;
+	top: 450px;
 	right: 0;
 }
 
 .forma{
 	margin-top: 190px;
-	width: 700px;
+	width: 720px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .forma h2{
-	font-size: 47px;
-	font-weight: 10px;
+	font-size: 48px;
+	font-weight: 100px;
+	margin-left: 15px;
+	padding-top: 10px;
 	font-family: "Lighthaus";
 }
 
 .detail {
-	margin-top: -27px;
-	width: 700px;
-	height: 750px;
+	margin-top: 0px;
+	width: 695px;
+	height: 770px;
 	margin-left: auto;
 	margin-right: auto;
 	background: white;
 	border-radius: 20px;
+	border: 1px solid #e5e5e5 ;
 }
 
 .btn-item{
 	display: flex;
-	width: 356px;
-	font-size: 23px;
+	width: 355px;
+	font-size: 25px;
 	font-family: "Montserrat";
-	margin-top: 110px;
-	margin-left: 40px;
-	height: 65px;
+	margin-top: 35px;
+	margin-left: 50px;
+	height: 63px;
 	border-radius: 50px;
 	border: 1px solid #A6A6A6;
 	cursor: pointer;
@@ -195,8 +203,8 @@
 .value-one{
 	width: 143px;
 	text-align: center;
-	height: 45px;
-	padding-top: 20px;
+	height: 50px;
+	padding-top: 15px;
 }
 
 .value{
@@ -207,32 +215,34 @@
 }
 
 .value-two{
-	width: 173px;
+	width: 197px;
 	text-align: center;
-	height: 45px;
-	padding-top: 20px;
-	margin-left: 40px;
+	height: 47px;
+	padding-top: 17px;
+	margin-left: 16px;
 }
 
 .opis{
 	font-size: 23px;
 	font-family: "Montserrat";
 	line-height: 30px;
-	width: 550px;
-	margin-top: -10px;
-	margin-left: 40px;
+	width: 600px;
+	margin-top: -5px;
+	margin-left: 50px;
+	letter-spacing: 0.8px;
 }
 
 .number div{
 	border: 1px solid #A6A6A6;
 	border-radius: 30px;
-	width: 123px;
-	height: 45px;
+	width: 120px;
+	height: 43px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	font-family: "Montserrat", sans-serif;
-	font-size: 22px;
+	font-size: 21px;
+	letter-spacing: 1.7px;
 	padding-top: 20px;
 	margin: 10px;
 	cursor: pointer;
@@ -241,27 +251,36 @@
 div.price-two , div.price-three , div.price-forth {
 	width: 135px;
 }
-
+.number{
+	border-top: 4px solid #A6A6A6 ;
+	margin-left: 60px;
+	margin-top: -5px;
+	width: 590px;
+}
 .number ul{
+	
 	list-style: none;
 	display: flex;
-	margin-top: 35px;
-	margin-left: -10px;
+	margin-top: 0px;
+	padding-top: 10px;
+	margin-left: -60px;
 }
 
 .detail input{
-	margin-left: 40px;
-	margin-top: -20px;
+	margin-left: 50px;
+	margin-top: -10px;
 	margin-bottom: 40px;
 	border-radius: 50px;
 	width: 560px;
-	height: 60px;
+	height: 57px;
 	justify-content: center;
 	padding-left: 40px;
-	font-family: "Montserrat";
+	font-family: "Montserrat",sans-serif;
 	font-size: 23px;
 }
-
+.detail #mail{
+	margin-top: -20px;
+}
 .check{
 	margin-top: -20px;
 	margin-left: 40px;
@@ -285,6 +304,7 @@ div.price-two , div.price-three , div.price-forth {
    content: "";
    display: inline-block;
    margin-right: 15px;
+   margin-left: 10px;
    vertical-align: middle;
    border: 2px solid #D7B377;
 	border-radius: 50%;
@@ -300,13 +320,13 @@ input:checked +label::before {
 
 .btn{
 	background: red;
-	font-size: 30px;
-	font-family: "Montserrat";
+	font-size: 25px;
+	font-family: "Montserrat",sans-serif;
 	width: 600px;
-	margin-left: 40px;
+	margin-left: 50px;
 	color: white;
 	height: 65px;
-	margin-top: 35px;
+	margin-top: 30px;
 	border-color: red;
 	vertical-align: center;
 	text-align: center;
@@ -314,7 +334,7 @@ input:checked +label::before {
 }
 
 .btn p{
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .btn:hover {
@@ -322,7 +342,7 @@ input:checked +label::before {
 }
 
 .politic{
-	margin-left: 200px;
+	margin-left: 210px;
 	margin-top: 30px;
 	margin-right: auto;
 	font-size: 22px;
@@ -343,29 +363,29 @@ input:checked +label::before {
 	position: absolute;
 }
 .image img:nth-child(1){	
-	left: 40px;
-	top: 30px;
+	left: 50px;
+	top: 35px;
 }
 
 .image img:nth-child(2){	
-	left: 160px;
-	top: 25px;
+	left: 165px;
+	top: 30px;
 }
 .image img:nth-child(3){	
-	left: 275px;
-	top: 20px;
+	left: 282px;
+	top: 25px;
 }
 .image img:nth-child(4){	
-	left: 370px;
-	top: 20px;
+	left: 375px;
+	top: 25px;
 }
 .image img:nth-child(5){	
 	left: 470px;
-	top: 25px;
+	top: 30px;
 }
 .image img:nth-child(6){	
-	left: 570px;
-	top: 25px;
+	left: 580px;
+	top: 30px;
 }
 
 .main-two{
@@ -378,20 +398,20 @@ input:checked +label::before {
 
 .main-two img:first-child {
 	position: absolute;
-	left: 5px;
-	top: -90px;
+	left: 15px;
+	top: -125px;
 }
 
 .main-two img:nth-child(2) {
 	position: absolute;
 	left: 0px;
-	top: -285px;
+	top: -320px;
 }
 
 .main-two img:nth-child(3) {
 	position: absolute;
-	top: 108px;
-	right: 8px;
+	top: 115px;
+	right: 0px;
 }
 
 .opis-forth{
@@ -403,6 +423,7 @@ input:checked +label::before {
 	font-family: "Lighthaus";
 	font-size: 47px;
 	margin-bottom: 20px;
+	margin-top: 40px;
 }
 
 .opis-forth p {
@@ -430,15 +451,15 @@ input:checked +label::before {
 }
 .footer img{
 	position: absolute;
-	left: 290px;
-	top: 37px;
+	left: 310px;
+	top: 40px;
 }
 .info-one{
 	font-family: "Montserrat";
 	font-size: 23px;
 	line-height: 37px;
-	margin-left: 810px;
-	padding-top: 7px;
+	margin-left: 830px;
+	padding-top: 10px;
 }
 .info-one ul{
 	list-style: none;
@@ -451,8 +472,8 @@ input:checked +label::before {
 }
 
 .info-two{
-	margin-left: 1205px;
-	margin-top: -440px;
+	margin-left: 1225px;
+	margin-top: -437px;
 	font-family: "Montserrat";
 	font-size: 21px;
 
@@ -461,7 +482,7 @@ input:checked +label::before {
 	list-style: none;
 }
 .info-two p{
-	line-height: 33px;
+	line-height: 34px;
 }
 
 
@@ -476,6 +497,8 @@ footer{
 html{
 	width: 100%;
 }
+
+
 
 a {
 	opacity: 0.7;
